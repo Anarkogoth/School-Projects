@@ -13,8 +13,8 @@ header{
     color: rgb(42, 122, 228);
 }
 
-section {
-background: rgb(171, 95, 206);
+.chamada{
+background: rgb(121, 30, 163);
 padding-bottom: 80px;
 padding-top: 80px;
 display: flex;
@@ -25,10 +25,25 @@ justify-content: center;
     margin-right: 5%;
 }
 
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 h1{
     font-size: 40px;
 }
 
 p{
     font-size: 20px;
+}
+
+img{
+    height: 200px;
 }
